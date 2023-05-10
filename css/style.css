@@ -129,12 +129,10 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--nav-color-acctive);
-  /* transition: var(--transition-timing-function); */
 }
 
 .curent {
   color: #404bbf;
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .curent::after {
@@ -156,8 +154,6 @@ body {
   margin-left: auto;
   align-items: center;
   font-style: normal;
-  /* 
-  transition: var(--transition-timing-function); */
 }
 
 .contact-item:not(:last-child) {
@@ -176,7 +172,6 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--nav-color-acctive);
-  /* transition: var(--transition-timing-function); */
 }
 
 /* Hero section */
@@ -185,7 +180,6 @@ body {
   background: rgba(46, 47, 66, 0.7);
   padding: 188px 0;
   max-width: 1440px;
-  /* height: 600px; */
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #000000;
@@ -243,7 +237,6 @@ body {
 .booking-btn:hover,
 .booking-btn:focus {
   background-color: var(--nav-color-acctive);
-  /* transition: var(--transition-timing-function); */
 }
 
 h1 {
@@ -363,7 +356,6 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  /* margin-top: 8px; */
   margin-bottom: 8px;
 }
 .socials-list {
@@ -393,11 +385,9 @@ a {
 
 .social-link:hover {
   background-color: #404bbf;
-  /* transition: var(--transition-timing-function); */
 }
 .social-link:focus {
   background-color: #404bbf;
-  /* transition: var(--transition-timing-function); */
 }
 
 .social-icon {
@@ -441,7 +431,6 @@ a {
 }
 
 .customers-item {
-  /* padding: 16px 32px; */
   height: 88px;
   width: calc((100% - 120px) / 6);
 }
@@ -485,7 +474,6 @@ footer {
   text-transform: uppercase;
   color: var(--main-btn);
   display: inline-block;
-  /* margin-bottom: 16px; */
 }
 
 .fut {
@@ -493,10 +481,10 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-btn);
-  /* margin-top:  16px; */
   display: block;
   max-width: 264px;
 }
+
 .logo-container {
   display: inline-block;
   margin-right: 120px;
@@ -582,7 +570,6 @@ footer {
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  /* transition: var(--transition-timing-function); */
 }
 
 .button {
@@ -629,7 +616,6 @@ footer {
 .progect-card:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  /* transition: var(--transition-timing-function); */
 }
 
 .card-overlay {
