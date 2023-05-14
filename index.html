@@ -443,23 +443,14 @@
             </li>
           </ul>
         </div>
-
-        <div class="forma">
-          <p class="form-title">Subscribe</p>
-          <label class="form-footer"></label>
-          <input
-            class="form-footer-text"
-            name="form e-mail"
-            placeholder="E-mail"
-          />
-
-          <button type="submit" class="form-button">
-            <p class="button-form-title">Subscribe</p>
-            <svg class="icon-form-footer" width="24" height="24">
-              <use href="./images/icons.svg#frame"></use>
-            </svg>
-          </button>
-        </div>
+        
+        <form class="subscribe">
+          <label for="subscribe-mail" class="subscribe-header">Subscribe</label>
+          <div class="subscribe-form">
+            <input type="mail" name="mail" id="subscribe-mail" placeholder="E-mail" class="subscribe-input">
+            <button type="submit" class="submit-btn">Subscribe</button>
+          </div>
+        </form>
       </div>
     </footer>
     <!--MODAL-->

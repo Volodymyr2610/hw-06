@@ -529,61 +529,98 @@ footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-title {
-  display: block;
-  position: relative;
-  top: 0;
-  left: 0;
-  align-items: center;
-  justify-content: center;
+
+
+/* SUBSCRIBE */
+
+.subscribe {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  flex-direction: column;
+}
+
+.subscribe-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
   color: var(--white-text);
+  display: flex;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 16px;
 }
 
-.form-footer {
-  box-sizing: border-box;
-  position: absolute;
-  border-radius: 4px;
-  border: 1px solid #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  width: 264px;
-  height: 40px;
+.subscribe-form {
   display: flex;
-  align-items: center;
+}
+
+.submit-btn {
+  display: flex;
+
+  background-color: var(--nav-color);
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
   border: none;
-  background-color: transparent;
-}
-
-.form-footer-text {
-  position: absolute;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-}
-.forma {
-  margin-left: 80px;
-}
-
-.form-button {
-  position: absolute;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* margin-left: 24px; */
-  background: #4d5ae5;
   border-radius: 4px;
-  gap: 16px;
+
+  margin-left: 24px;
+  margin-right: auto;
+  padding: 8px 24px;
+
+  cursor: pointer;
+
+  align-items: center;
+
+  scale: (1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-form-footer {
-  fill: #ffffff;
+.submit-btn::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background-image: url(../images/icon/frame.svg);
+  fill: var(--white-text);
+
+  margin-left: 16px;
 }
+
+.submit-btn:hover,
+.submit-btn:focus {
+  transform: scale(1.1);
+}
+
+.subscribe-input {
+  width: 264px;
+  background: transparent;
+  padding: 8px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--white-text);
+  caret-color: var(--nav-color);
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-input:hover,
+.subscribe-input:focus {
+  outline: transparent;
+  border: 1px solid var(--nav-color);
+}
+.subscribe-input:not(:placeholder-shown) {
+  border: 1px solid var(--nav-color);
+}
+
+
 /**PORTFOLIO**/
 
 .section-products {
