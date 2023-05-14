@@ -518,9 +518,17 @@
           rows="10"
           placeholder="Text input"
         ></textarea>
-         <label class="form-agreement" for="">
-          <input class="form-check-input" type="checkbox" name="modai_agreement">I accept the terms and conditions of the Privacy Policy
-         </label>
+        <div class="license-checkbox">
+          <label class="form-checkbox" for="checkbox">
+            <input class="input-checkbox" type="checkbox" id="checkbox"> <span class="agree-text">I accept the terms and conditions of the</span>
+            <svg class="check-icon" width="10" height="8">
+              <use href="./images/icons.svg#vector"></use>
+            </svg>
+             
+           </label>
+           <a href="" class="agreement-link link"> Privacy Policy</a>
+        </div>
+        <button type="button" class="btn form-btn">Send</button>
         </form>
       </div>
     </div>
