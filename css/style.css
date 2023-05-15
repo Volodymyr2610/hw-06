@@ -546,9 +546,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white-text);
-  display: flex;
-  margin-left: 0;
-  margin-right: auto;
+  display: block;
   margin-bottom: 16px;
 }
 
@@ -755,7 +753,7 @@ footer {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: var(--transition-timing-function);
-  padding: 24px;
+  padding: 72px 24px 24px;
 }
 
 .backdrop.is-hidden .modal {
@@ -799,8 +797,7 @@ footer {
 
 .madal-tatle {
   display: block;
-  margin-bottom: 16px;
-  margin-top: 72px;
+
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -814,7 +811,7 @@ footer {
 
 .form-label {
   display: block;
-  /* margin-bottom: 8px; */
+  padding-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -833,13 +830,13 @@ footer {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 44px;
-  outline: transparent;
+  outline: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:focus {
-  outline-color: #4d5ae5;
-  border: 1px solid #4d5ae5;
+  /* outline-color: #4d5ae5; */
+  border-color:#4d5ae5;
 }
 
 .form-icon {
@@ -866,14 +863,16 @@ footer {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #8e8f99;
-  outline: transparent;
+  outline: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
+
+  padding: 8px 16px;
 }
 
 .form-comment:focus {
-  outline-color: #4d5ae5;
-  border: 1px solid #4d5ae5;
+
+  border-color: #4d5ae5;
 }
 
 .license-checkbox {
@@ -882,8 +881,6 @@ footer {
 }
 .form-checkbox {
   display: inline;
-  /* justify-content: center;
-  align-items: center; */
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.04em;
@@ -892,7 +889,6 @@ footer {
 
 .input-checkbox {
   appearance: none;
-  /* display: block; */
   position: absolute;
   top: 3px;
   left: 0;
