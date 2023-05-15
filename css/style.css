@@ -534,9 +534,8 @@ footer {
 /* SUBSCRIBE */
 
 .subscribe {
-  display: flex;
+  
   margin-left: auto;
-  margin-right: 0;
   flex-direction: column;
 }
 
@@ -797,6 +796,7 @@ footer {
 
 .madal-tatle {
   display: block;
+  margin-bottom: 16px;
 
   font-weight: 500;
   font-size: 16px;
@@ -811,7 +811,7 @@ footer {
 
 .form-label {
   display: block;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -835,7 +835,6 @@ footer {
 }
 
 .form-field:focus {
-  /* outline-color: #4d5ae5; */
   border-color:#4d5ae5;
 }
 
